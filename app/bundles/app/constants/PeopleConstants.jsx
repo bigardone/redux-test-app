@@ -1,0 +1,8 @@
+export const PEOPLE_LOAD_REQUESTED        = 'PEOPLE_LOAD_REQUESTED';
+export const PEOPLE_LOAD_SUCCEED          = 'PEOPLE_LOAD_SUCCEED';
+export const PEOPLE_LOAD_FAILED           = 'PEOPLE_LOAD_FAILED';
+
+
+export const PERSON_LOAD_REQUESTED        = 'PERSON_LOAD_REQUESTED';
+export const PERSON_LOAD_SUCCEED          = 'PERSON_LOAD_SUCCEED';
+export const PERSON_LOAD_FAILED           = 'PERSON_LOAD_FAILED';
