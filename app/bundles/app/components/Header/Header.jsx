@@ -17,6 +17,7 @@ export default class Header extends React.Component {
           <h1>
             <Link to="/">Isomorphic Flux</Link>
           </h1>
+          <Link to="/people">People</Link>
         </header>
     );
 
