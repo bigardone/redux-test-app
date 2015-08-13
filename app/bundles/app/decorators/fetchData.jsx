@@ -11,6 +11,7 @@ export default (fetch) => {
 
 
       static fetchData = fetch
+      static DecoratedComponent = DecoratedComponent
 
 
       static propTypes = {

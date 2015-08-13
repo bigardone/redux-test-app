@@ -20,7 +20,7 @@ export default (context) => (
     <Route name="logout"      path="/logout"  component={Logout} />
 
     <Route name="people"      path="/people"  component={People} />
-    <Route name="person"      path="/people/:id"  component={Person} />
+    <Route name="person"      path="/people/:id"  component={Person} context={context} onEnter={Person.DecoratedComponent.DecoratedComponent.checkAuth}/>
 
     <Route name="not-found"   path="*"        component={NotFound} />
   </Route>

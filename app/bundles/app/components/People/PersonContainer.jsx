@@ -29,6 +29,11 @@ export default class PersonContainer extends React.Component {
     router: Type.object.isRequired
   }
 
+  static checkAuth(nextState, transition) {
+    const { auth } = this.context.store.getState();
+    if (!auth.isLoggedIn) transition.to('/');
+  }
+
   constructor(props, context) {
     super(props, context);
   }
